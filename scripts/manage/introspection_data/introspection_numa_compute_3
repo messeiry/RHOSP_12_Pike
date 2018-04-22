@@ -1,0 +1,34 @@
+{
+  "cpus": [
+    {
+      "cpu": 0,
+      "thread_siblings": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "numa_node": 0
+    }
+  ],
+  "ram": [
+    {
+      "size_kb": 16776716,
+      "numa_node": 0
+    }
+  ],
+  "nics": [
+    {
+      "name": "ens192",
+      "numa_node": -1
+    },
+    {
+      "name": "ens256",
+      "numa_node": -1
+    },
+    {
+      "name": "ens224",
+      "numa_node": -1
+    }
+  ]
+}

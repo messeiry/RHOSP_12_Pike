@@ -1,0 +1,26 @@
+[
+  {
+    "size": 64424509440,
+    "serial": null,
+    "rotational": true,
+    "vendor": "VMware",
+    "name": "/dev/sda",
+    "wwn_vendor_extension": null,
+    "hctl": "0:0:0:0",
+    "wwn_with_extension": null,
+    "model": "Virtual disk",
+    "wwn": null
+  },
+  {
+    "size": 107374182400,
+    "serial": null,
+    "rotational": true,
+    "vendor": "VMware",
+    "name": "/dev/sdb",
+    "wwn_vendor_extension": null,
+    "hctl": "0:0:1:0",
+    "wwn_with_extension": null,
+    "model": "Virtual disk",
+    "wwn": null
+  }
+]

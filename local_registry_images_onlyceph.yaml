@@ -1,0 +1,2 @@
+container_images:
+- imagename: registry.access.redhat.com/rhceph/rhceph-2-rhel7:latest

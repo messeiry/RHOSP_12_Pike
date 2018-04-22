@@ -1,0 +1,113 @@
+{
+    "nodes":[
+            {
+                    "arch":"x86_64",
+                    "cpu":"4",
+                    "disk":"60",
+                    "mac":[
+                            "00:50:56:84:f5:6a"
+                    ],
+                    "memory":"16384",
+                    "pm_type":"fake_pxe",
+                    "capabilities":"profile:control",
+                    "name": "control_1"
+            },
+            {
+                    "arch":"x86_64",
+                    "cpu":"4",
+                    "disk":"60",
+                    "mac":[
+                            "00:50:56:84:10:e6"
+                    ],
+                    "memory":"16384",
+                    "pm_type":"fake_pxe",
+                    "capabilities":"profile:control",
+                    "name": "control_2"
+            },
+            {
+                    "arch":"x86_64",
+                    "cpu":"4",
+                    "disk":"60",
+                    "mac":[
+                            "00:50:56:84:69:9f"
+                    ],
+                    "memory":"16384",
+                    "pm_type":"fake_pxe",
+                    "capabilities":"profile:control",
+                    "name": "control_3"
+            },
+            {
+                    "arch":"x86_64",
+                    "cpu":"4",
+                    "disk":"60",
+                    "mac":[
+                            "00:50:56:84:8c:a6"
+                    ],
+                    "memory":"16384",
+                    "pm_type":"fake_pxe",
+                    "capabilities":"profile:compute",
+                    "name": "compute_1"
+            },
+            {
+                    "arch":"x86_64",
+                    "cpu":"4",
+                    "disk":"60",
+                    "mac":[
+                            "00:50:56:84:77:03"
+                    ],
+                    "memory":"16384",
+                    "pm_type":"fake_pxe",
+                    "capabilities":"profile:compute",
+                    "name": "compute_2"
+            },
+            {
+                    "arch":"x86_64",
+                    "cpu":"4",
+                    "disk":"60",
+                    "mac":[
+                            "00:50:56:84:f1:4d"
+                    ],
+                    "memory":"16384",
+                    "pm_type":"fake_pxe",
+                    "capabilities":"profile:compute",
+                    "name": "compute_3"
+            },
+            {
+                    "arch":"x86_64",
+                    "cpu":"4",
+                    "disk":"60",
+                    "mac":[
+                            "00:50:56:84:c7:7a"
+                    ],
+                    "memory":"16384",
+                    "pm_type":"fake_pxe",
+                    "capabilities":"profile:ceph-storage",
+                    "name": "ceph_1"
+            },
+            {
+                    "arch":"x86_64",
+                    "cpu":"4",
+                    "disk":"60",
+                    "mac":[
+                            "00:50:56:84:b5:6b"
+                    ],
+                    "memory":"16384",
+                    "pm_type":"fake_pxe",
+                    "capabilities":"profile:ceph-storage",
+                    "name": "ceph_2"
+            },
+            {
+                    "arch":"x86_64",
+                    "cpu":"4",
+                    "disk":"60",
+                    "mac":[
+                            "00:50:56:84:df:53"
+                    ],
+                    "memory":"16384",
+                    "pm_type":"fake_pxe",
+                    "capabilities":"profile:ceph-storage",
+                    "name": "ceph_3"
+            }                                                             
+    ]
+}
+

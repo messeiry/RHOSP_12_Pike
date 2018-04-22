@@ -1,0 +1,1532 @@
+{
+  "cpu": {
+    "architecture": "x86_64",
+    "model_name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+    "flags": [
+      "fpu",
+      "vme",
+      "de",
+      "pse",
+      "tsc",
+      "msr",
+      "pae",
+      "mce",
+      "cx8",
+      "apic",
+      "sep",
+      "mtrr",
+      "pge",
+      "mca",
+      "cmov",
+      "pat",
+      "pse36",
+      "clflush",
+      "dts",
+      "mmx",
+      "fxsr",
+      "sse",
+      "sse2",
+      "ss",
+      "syscall",
+      "nx",
+      "pdpe1gb",
+      "rdtscp",
+      "lm",
+      "constant_tsc",
+      "arch_perfmon",
+      "pebs",
+      "bts",
+      "nopl",
+      "xtopology",
+      "tsc_reliable",
+      "nonstop_tsc",
+      "aperfmperf",
+      "eagerfpu",
+      "pni",
+      "pclmulqdq",
+      "ssse3",
+      "fma",
+      "cx16",
+      "pcid",
+      "sse4_1",
+      "sse4_2",
+      "x2apic",
+      "movbe",
+      "popcnt",
+      "tsc_deadline_timer",
+      "aes",
+      "xsave",
+      "avx",
+      "f16c",
+      "rdrand",
+      "hypervisor",
+      "lahf_lm",
+      "abm",
+      "epb",
+      "invpcid_single",
+      "fsgsbase",
+      "tsc_adjust",
+      "bmi1",
+      "avx2",
+      "smep",
+      "bmi2",
+      "invpcid",
+      "xsaveopt",
+      "dtherm",
+      "ida",
+      "arat",
+      "pln",
+      "pts"
+    ],
+    "frequency": "2394.455",
+    "count": 4
+  },
+  "memory": {
+    "total": 16827219968,
+    "physical_mb": 16384
+  },
+  "system_vendor": {
+    "manufacturer": "VMware, Inc.",
+    "product_name": "VMware Virtual Platform",
+    "serial_number": "VMware-42 04 d6 b2 76 0e 44 3d-71 b8 c3 aa 3c 53 28 fb"
+  },
+  "boot": {
+    "pxe_interface": "00:50:56:84:8c:a6",
+    "current_boot_mode": "bios"
+  },
+  "disks": [
+    {
+      "size": 64424509440,
+      "serial": null,
+      "rotational": true,
+      "vendor": "VMware",
+      "name": "/dev/sda",
+      "wwn_vendor_extension": null,
+      "hctl": "0:0:0:0",
+      "wwn_with_extension": null,
+      "model": "Virtual disk",
+      "wwn": null
+    }
+  ],
+  "interfaces": [
+    {
+      "mac_address": "00:50:56:84:8c:a6",
+      "lldp": [],
+      "product": "0x10d3",
+      "vendor": "0x8086",
+      "name": "ens192",
+      "has_carrier": true,
+      "ipv4_address": "192.0.2.103",
+      "biosdevname": null,
+      "client_id": null
+    },
+    {
+      "mac_address": "00:50:56:84:05:35",
+      "lldp": [],
+      "product": "0x10d3",
+      "vendor": "0x8086",
+      "name": "ens256",
+      "has_carrier": true,
+      "ipv4_address": null,
+      "biosdevname": null,
+      "client_id": null
+    },
+    {
+      "mac_address": "00:50:56:84:69:c2",
+      "lldp": [],
+      "product": "0x10d3",
+      "vendor": "0x8086",
+      "name": "ens224",
+      "has_carrier": true,
+      "ipv4_address": null,
+      "biosdevname": null,
+      "client_id": null
+    }
+  ],
+  "bmc_address": "0.0.0.0"
+}
+{
+  "ens192": {
+    "pxe": true,
+    "client_id": null,
+    "mac": "00:50:56:84:8c:a6",
+    "ip": "192.0.2.103"
+  }
+}
+59
+null
+{
+  "cpus": [
+    {
+      "cpu": 0,
+      "thread_siblings": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "numa_node": 0
+    }
+  ],
+  "ram": [
+    {
+      "size_kb": 16776716,
+      "numa_node": 0
+    }
+  ],
+  "nics": [
+    {
+      "name": "ens192",
+      "numa_node": -1
+    },
+    {
+      "name": "ens256",
+      "numa_node": -1
+    },
+    {
+      "name": "ens224",
+      "numa_node": -1
+    }
+  ]
+}
+null
+"x86_64"
+[
+  "00:50:56:84:8c:a6"
+]
+{
+  "size": 64424509440,
+  "serial": null,
+  "rotational": true,
+  "vendor": "VMware",
+  "name": "/dev/sda",
+  "wwn_vendor_extension": null,
+  "hctl": "0:0:0:0",
+  "wwn_with_extension": null,
+  "model": "Virtual disk",
+  "wwn": null
+}
+{
+  "cpu": {
+    "physical_79": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 53
+    },
+    "physical_78": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 52
+    },
+    "physical_103": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "6b"
+    },
+    "physical_108": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 70
+    },
+    "physical_109": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 71
+    },
+    "physical_88": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "5c"
+    },
+    "physical_89": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "5d"
+    },
+    "logical": {
+      "number": 4
+    },
+    "physical_117": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 79
+    },
+    "physical_116": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 78
+    },
+    "physical_115": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 77
+    },
+    "physical_114": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 76
+    },
+    "physical_113": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 75
+    },
+    "physical_112": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 74
+    },
+    "physical_111": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 73
+    },
+    "physical_110": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 72
+    },
+    "physical_119": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "7b"
+    },
+    "physical_118": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "7a"
+    },
+    "physical_33": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 25
+    },
+    "physical_32": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 24
+    },
+    "physical_31": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 23
+    },
+    "physical_30": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 22
+    },
+    "physical_37": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 29
+    },
+    "physical_36": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 28
+    },
+    "physical_35": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 27
+    },
+    "physical_34": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 26
+    },
+    "physical_39": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "2b"
+    },
+    "physical_38": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "2a"
+    },
+    "physical_104": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "6c"
+    },
+    "physical_87": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "5b"
+    },
+    "physical_84": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 58
+    },
+    "physical_107": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "6f"
+    },
+    "physical_82": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 56
+    },
+    "physical_83": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 57
+    },
+    "physical_51": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 37
+    },
+    "physical_50": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 36
+    },
+    "physical_53": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 39
+    },
+    "physical_52": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 38
+    },
+    "physical_59": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "3f"
+    },
+    "physical_58": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "3e"
+    },
+    "physical_48": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 34
+    },
+    "physical_49": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 35
+    },
+    "physical_45": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 31
+    },
+    "physical_44": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 30
+    },
+    "physical_47": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 33
+    },
+    "physical_46": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 32
+    },
+    "physical_41": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "2d"
+    },
+    "physical_40": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "2c"
+    },
+    "physical_43": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "2f"
+    },
+    "physical_42": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "2e"
+    },
+    "physical_56": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "3c"
+    },
+    "physical_57": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "3d"
+    },
+    "physical_54": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "3a"
+    },
+    "physical_55": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "3b"
+    },
+    "physical_29": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 21
+    },
+    "physical_28": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 20
+    },
+    "physical_27": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "1f"
+    },
+    "physical_26": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "1e"
+    },
+    "physical_25": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "1d"
+    },
+    "physical_24": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "1c"
+    },
+    "physical_23": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "1b"
+    },
+    "physical_22": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "1a"
+    },
+    "physical_21": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 19
+    },
+    "physical_20": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 18
+    },
+    "physical_81": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 55
+    },
+    "physical_80": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 54
+    },
+    "physical_102": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "6a"
+    },
+    "physical_101": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 69
+    },
+    "physical_100": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 68
+    },
+    "physical_85": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 59
+    },
+    "physical_106": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "6e"
+    },
+    "physical_105": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "6d"
+    },
+    "physical_86": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "5a"
+    },
+    "physical_4": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 8
+    },
+    "physical_5": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 9
+    },
+    "physical_6": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "a"
+    },
+    "physical_7": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "b"
+    },
+    "physical_0": {
+      "physid": 4,
+      "flags": "fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm epb invpcid_single fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt dtherm ida arat pln pts",
+      "frequency": 2.4e+09,
+      "version": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+      "vendor": "Intel Corp.",
+      "product": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz"
+    },
+    "physical_1": {
+      "physid": 5,
+      "flags": "fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm epb invpcid_single fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt dtherm ida arat pln pts",
+      "frequency": 2.4e+09,
+      "version": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+      "vendor": "Intel Corp.",
+      "product": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz"
+    },
+    "physical_2": {
+      "physid": 6,
+      "flags": "fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm epb invpcid_single fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt dtherm ida arat pln pts",
+      "frequency": 2.4e+09,
+      "version": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+      "vendor": "Intel Corp.",
+      "product": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz"
+    },
+    "physical_3": {
+      "physid": 7,
+      "flags": "fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon pebs bts nopl xtopology tsc_reliable nonstop_tsc aperfmperf eagerfpu pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm epb invpcid_single fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid xsaveopt dtherm ida arat pln pts",
+      "frequency": 2.4e+09,
+      "version": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz",
+      "vendor": "Intel Corp.",
+      "product": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz"
+    },
+    "physical_8": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "c"
+    },
+    "physical_9": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "d"
+    },
+    "physical_16": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 14
+    },
+    "physical_17": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 15
+    },
+    "physical_14": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 12
+    },
+    "physical_15": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 13
+    },
+    "physical_12": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 10
+    },
+    "physical_13": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 11
+    },
+    "physical_10": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "e"
+    },
+    "physical_11": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "f"
+    },
+    "physical_18": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 16
+    },
+    "physical_19": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 17
+    },
+    "physical_98": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 66
+    },
+    "physical_99": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 67
+    },
+    "physical_96": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 64
+    },
+    "physical_97": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 65
+    },
+    "physical_94": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 62
+    },
+    "physical_95": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 63
+    },
+    "physical_92": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 60
+    },
+    "physical_93": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 61
+    },
+    "physical_90": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "5e"
+    },
+    "physical_91": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "5f"
+    },
+    "physical_63": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 43
+    },
+    "physical_62": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 42
+    },
+    "physical_61": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 41
+    },
+    "physical_60": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 40
+    },
+    "physical_67": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 47
+    },
+    "physical_66": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 46
+    },
+    "physical_65": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 45
+    },
+    "physical_64": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 44
+    },
+    "physical_121": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "7d"
+    },
+    "physical_120": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "7c"
+    },
+    "physical_123": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "7f"
+    },
+    "physical_122": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "7e"
+    },
+    "physical_125": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 81
+    },
+    "physical_124": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 80
+    },
+    "physical_127": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 83
+    },
+    "physical_126": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 82
+    },
+    "physical_69": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 49
+    },
+    "physical_68": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 48
+    },
+    "physical": {
+      "number": 128
+    },
+    "physical_70": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "4a"
+    },
+    "physical_71": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "4b"
+    },
+    "physical_72": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "4c"
+    },
+    "physical_73": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "4d"
+    },
+    "physical_74": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "4e"
+    },
+    "physical_75": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": "4f"
+    },
+    "physical_76": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 50
+    },
+    "physical_77": {
+      "flags": "",
+      "vendor": 0,
+      "version": "Unknown Processor",
+      "physid": 51
+    }
+  },
+  "disk": {
+    "logical": {
+      "count": 1
+    },
+    "sda": {
+      "size": 64,
+      "rotational": 1,
+      "vendor": "VMware",
+      "optimal_io_size": 0,
+      "SMART/vendor": "VMware",
+      "rev": "1.0",
+      "physical_block_size": 512,
+      "model": "Virtual disk",
+      "SMART/product": "Virtual disk"
+    }
+  },
+  "memory": {
+    "bank:35": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #35"
+    },
+    "bank:34": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #34"
+    },
+    "bank:26": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #26"
+    },
+    "bank:27": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #27"
+    },
+    "bank:24": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #24"
+    },
+    "bank:25": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #25"
+    },
+    "bank:46": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #46"
+    },
+    "bank:28": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #28"
+    },
+    "bank:29": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #29"
+    },
+    "bank:13": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #13"
+    },
+    "bank:47": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #47"
+    },
+    "bank:5": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #5"
+    },
+    "bank:4": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #4"
+    },
+    "bank:7": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #7"
+    },
+    "bank:6": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #6"
+    },
+    "bank:1": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #1"
+    },
+    "bank:0": {
+      "size": 17179869184,
+      "description": "DIMM DRAM EDO",
+      "slot": "RAM slot #0"
+    },
+    "bank:3": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #3"
+    },
+    "bank:50": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #50"
+    },
+    "bank:57": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #57"
+    },
+    "bank:56": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #56"
+    },
+    "bank:55": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #55"
+    },
+    "bank:54": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #54"
+    },
+    "bank:59": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #59"
+    },
+    "bank:58": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #58"
+    },
+    "bank:12": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #12"
+    },
+    "bank:51": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #51"
+    },
+    "bank:52": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #52"
+    },
+    "bank:53": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #53"
+    },
+    "bank:18": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #18"
+    },
+    "total": {
+      "size": 17179869184
+    },
+    "bank:8": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #8"
+    },
+    "bank:9": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #9"
+    },
+    "bank:2": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #2"
+    },
+    "bank:21": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #21"
+    },
+    "bank:20": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #20"
+    },
+    "bank:23": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #23"
+    },
+    "bank:22": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #22"
+    },
+    "bank:44": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #44"
+    },
+    "bank:49": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #49"
+    },
+    "bank:48": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #48"
+    },
+    "bank:61": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #61"
+    },
+    "bank:60": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #60"
+    },
+    "bank:63": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #63"
+    },
+    "bank:62": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #62"
+    },
+    "bank:43": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #43"
+    },
+    "bank:42": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #42"
+    },
+    "bank:41": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #41"
+    },
+    "bank:40": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #40"
+    },
+    "bank:32": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #32"
+    },
+    "bank:19": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #19"
+    },
+    "bank:14": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #14"
+    },
+    "bank:10": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #10"
+    },
+    "bank:11": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #11"
+    },
+    "bank:38": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #38"
+    },
+    "bank:39": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #39"
+    },
+    "bank:45": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #45"
+    },
+    "bank:15": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #15"
+    },
+    "bank:16": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #16"
+    },
+    "bank:17": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #17"
+    },
+    "banks": {
+      "count": 64
+    },
+    "bank:33": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #33"
+    },
+    "bank:30": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #30"
+    },
+    "bank:31": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #31"
+    },
+    "bank:36": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #36"
+    },
+    "bank:37": {
+      "description": "DIMM DRAM [empty]",
+      "slot": "RAM slot #37"
+    }
+  },
+  "system": {
+    "product": {
+      "uuid": "4204D6B2-760E-443D-71B8-C3AA3C5328FB",
+      "name": "VMware Virtual Platform",
+      "vendor": "VMware, Inc.",
+      "version": "None",
+      "serial": "VMware-42 04 d6 b2 76 0e 44 3d-71 b8 c3 aa 3c 53 28 fb"
+    },
+    "kernel": {
+      "arch": "x86_64",
+      "version": "3.10.0-693.21.1.el7.x86_64",
+      "cmdline": "ipa-inspection-callback-url=http://192.0.2.1:5050/v1/continue ipa-inspection-collectors=default,extra-hardware,numa-topology,logs systemd.journald.forward_to_console=yes BOOTIF=00:50:56:84:8c:a6 ipa-debug=1 ipa-inspection-dhcp-all-interfaces=1 ipa-collect-lldp=1 initrd=agent.ramdisk"
+    },
+    "motherboard": {
+      "name": "440BX Desktop Reference Platform",
+      "vendor": "Intel Corporation",
+      "version": "None",
+      "serial": "None"
+    }
+  },
+  "firmware": {
+    "bios": {
+      "vendor": "Phoenix Technologies LTD",
+      "version": "6.00",
+      "date": "09/21/2015"
+    }
+  },
+  "network": {
+    "ens224": {
+      "hw-tc-offload": "off [fixed]",
+      "tx-checksumming/tx-checksum-fcoe-crc": "off [fixed]",
+      "tx-sctp-segmentation": "off [fixed]",
+      "large-receive-offload": "off [fixed]",
+      "tcp-segmentation-offload/tx-tcp-ecn-segmentation": "off [fixed]",
+      "fcoe-mtu": "off [fixed]",
+      "firmware": "1.8-0",
+      "RX": "off",
+      "tx-udp_tnl-segmentation": "off [fixed]",
+      "Autonegotiate": "on",
+      "tcp-segmentation-offload": "on",
+      "duplex": "full",
+      "tx-fcoe-segmentation": "off [fixed]",
+      "tx-checksumming/tx-checksum-ipv4": "off [fixed]",
+      "tx-gre-segmentation": "off [fixed]",
+      "tx-checksumming/tx-checksum-ipv6": "off [fixed]",
+      "latency": 0,
+      "tx-gso-robust": "off [fixed]",
+      "autonegotiation": "on",
+      "highdma": "on [fixed]",
+      "rx-vlan-stag-filter": "off [fixed]",
+      "tx-vlan-stag-hw-insert": "off [fixed]",
+      "rx-vlan-offload": "on",
+      "vlan-challenged": "off [fixed]",
+      "tx-udp_tnl-csum-segmentation": "off [fixed]",
+      "tcp-segmentation-offload/tx-tcp-mangleid-segmentation": "off",
+      "netns-local": "off [fixed]",
+      "vendor": "Intel Corporation",
+      "serial": "00:50:56:84:69:c2",
+      "speed": "1Gbit/s",
+      "tx-mpls-segmentation": "off [fixed]",
+      "size": 1e+09,
+      "l2-fwd-offload": "off [fixed]",
+      "rx-vlan-stag-hw-parse": "off [fixed]",
+      "businfo": "pci@0000:13:00.0",
+      "tx-vlan-offload": "on",
+      "product": "82574L Gigabit Network Connection",
+      "tx-nocache-copy": "off",
+      "udp-fragmentation-offload": "off [fixed]",
+      "tx-checksumming/tx-checksum-sctp": "off [fixed]",
+      "driver": "e1000e",
+      "tx-sit-segmentation": "off [fixed]",
+      "busy-poll": "off [fixed]",
+      "scatter-gather/tx-scatter-gather": "on",
+      "tx-checksumming/tx-checksum-ip-generic": "on",
+      "link": "yes",
+      "rx-all": "off",
+      "tx-ipip-segmentation": "off [fixed]",
+      "tcp-segmentation-offload/tx-tcp6-segmentation": "on",
+      "rx-checksumming": "on",
+      "tcp-segmentation-offload/tx-tcp-segmentation": "on",
+      "TX": "off",
+      "generic-segmentation-offload": "on",
+      "loopback": "off [fixed]",
+      "tx-lockless": "off [fixed]",
+      "tx-checksumming": "on",
+      "ntuple-filters": "off [fixed]",
+      "rx-vlan-filter": "on [fixed]",
+      "tx-gre-csum-segmentation": "off [fixed]",
+      "tx-gso-partial": "off [fixed]",
+      "receive-hashing": "on",
+      "scatter-gather/tx-scatter-gather-fraglist": "off [fixed]",
+      "generic-receive-offload": "on",
+      "rx-fcs": "off",
+      "scatter-gather": "on"
+    },
+    "ens192": {
+      "hw-tc-offload": "off [fixed]",
+      "scatter-gather": "on",
+      "rx-fcs": "off",
+      "link": "yes",
+      "scatter-gather/tx-scatter-gather-fraglist": "off [fixed]",
+      "tx-checksumming/tx-checksum-fcoe-crc": "off [fixed]",
+      "tx-sctp-segmentation": "off [fixed]",
+      "large-receive-offload": "off [fixed]",
+      "tcp-segmentation-offload/tx-tcp-ecn-segmentation": "off [fixed]",
+      "fcoe-mtu": "off [fixed]",
+      "firmware": "1.8-0",
+      "RX": "off",
+      "tx-udp_tnl-segmentation": "off [fixed]",
+      "Autonegotiate": "on",
+      "tcp-segmentation-offload": "on",
+      "duplex": "full",
+      "ipv4-netmask": "255.255.255.0",
+      "TX": "off",
+      "tx-gre-segmentation": "off [fixed]",
+      "tx-checksumming/tx-checksum-ipv6": "off [fixed]",
+      "latency": 0,
+      "tx-gso-robust": "off [fixed]",
+      "autonegotiation": "on",
+      "highdma": "on [fixed]",
+      "rx-vlan-stag-filter": "off [fixed]",
+      "ipv4-network": "192.0.2.0",
+      "rx-vlan-offload": "on",
+      "vlan-challenged": "off [fixed]",
+      "tx-udp_tnl-csum-segmentation": "off [fixed]",
+      "tcp-segmentation-offload/tx-tcp-mangleid-segmentation": "off",
+      "netns-local": "off [fixed]",
+      "vendor": "Intel Corporation",
+      "serial": "00:50:56:84:8c:a6",
+      "speed": "1Gbit/s",
+      "tx-mpls-segmentation": "off [fixed]",
+      "size": 1e+09,
+      "l2-fwd-offload": "off [fixed]",
+      "ipv4": "192.0.2.103",
+      "tx-gso-partial": "off [fixed]",
+      "ipv4-cidr": 24,
+      "rx-vlan-stag-hw-parse": "off [fixed]",
+      "tx-vlan-offload": "on",
+      "product": "82574L Gigabit Network Connection",
+      "tx-nocache-copy": "off",
+      "udp-fragmentation-offload": "off [fixed]",
+      "tx-checksumming/tx-checksum-sctp": "off [fixed]",
+      "driver": "e1000e",
+      "tx-sit-segmentation": "off [fixed]",
+      "busy-poll": "off [fixed]",
+      "scatter-gather/tx-scatter-gather": "on",
+      "tx-checksumming/tx-checksum-ip-generic": "on",
+      "tx-vlan-stag-hw-insert": "off [fixed]",
+      "loopback": "off [fixed]",
+      "rx-all": "off",
+      "tx-ipip-segmentation": "off [fixed]",
+      "tcp-segmentation-offload/tx-tcp6-segmentation": "on",
+      "rx-checksumming": "on",
+      "tcp-segmentation-offload/tx-tcp-segmentation": "on",
+      "generic-receive-offload": "on",
+      "tx-checksumming/tx-checksum-ipv4": "off [fixed]",
+      "generic-segmentation-offload": "on",
+      "tx-fcoe-segmentation": "off [fixed]",
+      "tx-lockless": "off [fixed]",
+      "tx-checksumming": "on",
+      "ntuple-filters": "off [fixed]",
+      "rx-vlan-filter": "on [fixed]",
+      "tx-gre-csum-segmentation": "off [fixed]",
+      "businfo": "pci@0000:0b:00.0",
+      "receive-hashing": "on"
+    },
+    "ens256": {
+      "hw-tc-offload": "off [fixed]",
+      "tx-checksumming/tx-checksum-fcoe-crc": "off [fixed]",
+      "tx-sctp-segmentation": "off [fixed]",
+      "large-receive-offload": "off [fixed]",
+      "tcp-segmentation-offload/tx-tcp-ecn-segmentation": "off [fixed]",
+      "fcoe-mtu": "off [fixed]",
+      "firmware": "1.8-0",
+      "RX": "off",
+      "tx-udp_tnl-segmentation": "off [fixed]",
+      "Autonegotiate": "on",
+      "tcp-segmentation-offload": "on",
+      "duplex": "full",
+      "tx-fcoe-segmentation": "off [fixed]",
+      "tx-checksumming/tx-checksum-ipv4": "off [fixed]",
+      "tx-gre-segmentation": "off [fixed]",
+      "tx-checksumming/tx-checksum-ipv6": "off [fixed]",
+      "latency": 0,
+      "tx-gso-robust": "off [fixed]",
+      "autonegotiation": "on",
+      "highdma": "on [fixed]",
+      "rx-vlan-stag-filter": "off [fixed]",
+      "tx-vlan-stag-hw-insert": "off [fixed]",
+      "rx-vlan-offload": "on",
+      "vlan-challenged": "off [fixed]",
+      "tx-udp_tnl-csum-segmentation": "off [fixed]",
+      "tcp-segmentation-offload/tx-tcp-mangleid-segmentation": "off",
+      "netns-local": "off [fixed]",
+      "vendor": "Intel Corporation",
+      "serial": "00:50:56:84:05:35",
+      "speed": "1Gbit/s",
+      "tx-mpls-segmentation": "off [fixed]",
+      "size": 1e+09,
+      "l2-fwd-offload": "off [fixed]",
+      "rx-vlan-stag-hw-parse": "off [fixed]",
+      "businfo": "pci@0000:1b:00.0",
+      "tx-vlan-offload": "on",
+      "product": "82574L Gigabit Network Connection",
+      "tx-nocache-copy": "off",
+      "udp-fragmentation-offload": "off [fixed]",
+      "tx-checksumming/tx-checksum-sctp": "off [fixed]",
+      "driver": "e1000e",
+      "tx-sit-segmentation": "off [fixed]",
+      "busy-poll": "off [fixed]",
+      "scatter-gather/tx-scatter-gather": "on",
+      "tx-checksumming/tx-checksum-ip-generic": "on",
+      "link": "yes",
+      "rx-all": "off",
+      "tx-ipip-segmentation": "off [fixed]",
+      "tcp-segmentation-offload/tx-tcp6-segmentation": "on",
+      "rx-checksumming": "on",
+      "tcp-segmentation-offload/tx-tcp-segmentation": "on",
+      "TX": "off",
+      "generic-segmentation-offload": "on",
+      "loopback": "off [fixed]",
+      "tx-lockless": "off [fixed]",
+      "tx-checksumming": "on",
+      "ntuple-filters": "off [fixed]",
+      "rx-vlan-filter": "on [fixed]",
+      "tx-gre-csum-segmentation": "off [fixed]",
+      "tx-gso-partial": "off [fixed]",
+      "receive-hashing": "on",
+      "scatter-gather/tx-scatter-gather-fraglist": "off [fixed]",
+      "generic-receive-offload": "on",
+      "rx-fcs": "off",
+      "scatter-gather": "on"
+    }
+  }
+}
+{
+  "ens224": {
+    "pxe": false,
+    "client_id": null,
+    "mac": "00:50:56:84:69:c2",
+    "ip": null
+  },
+  "ens192": {
+    "pxe": true,
+    "client_id": null,
+    "mac": "00:50:56:84:8c:a6",
+    "ip": "192.0.2.103"
+  },
+  "ens256": {
+    "pxe": false,
+    "client_id": null,
+    "mac": "00:50:56:84:05:35",
+    "ip": null
+  }
+}
+4
+"00:50:56:84:8c:a6"
+16384

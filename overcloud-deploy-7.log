@@ -1,0 +1,1155 @@
+Started Mistral Workflow tripleo.validations.v1.check_pre_deployment_validations. Execution ID: 47adcd7e-81b3-4deb-8f25-cc49ff507edd
+Removing the current plan files
+Uploading new plan files
+Started Mistral Workflow tripleo.plan_management.v1.update_deployment_plan. Execution ID: ae7baebe-e42b-406f-9d63-e3f8e33a89f3
+Plan updated.
+Processing templates in the directory /tmp/tripleoclient-yREZay/tripleo-heat-templates
+Started Mistral Workflow tripleo.plan_management.v1.get_deprecated_parameters. Execution ID: 346daef7-6c70-4795-b65b-45131b3b678c
+Deploying templates in the directory /tmp/tripleoclient-yREZay/tripleo-heat-templates
+Started Mistral Workflow tripleo.deployment.v1.deploy_plan. Execution ID: 58dbb151-8d38-4172-970e-ea8fb5395ffb
+2018-04-17 14:35:31Z [ServiceNetMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:32Z [overcloud7-ServiceNetMap-7xdncvie5slf]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:32Z [Networks]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:32Z [overcloud7-ServiceNetMap-7xdncvie5slf]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:33Z [overcloud7-Networks-j3czae5hvzrc]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:33Z [DefaultPasswords]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:33Z [overcloud7-Networks-j3czae5hvzrc.StorageNetwork]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:35Z [overcloud7-Networks-j3czae5hvzrc.ExternalNetwork]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:35Z [DefaultPasswords]: UPDATE_COMPLETE  state changed
+2018-04-17 14:35:35Z [overcloud7-Networks-j3czae5hvzrc-StorageNetwork-gesl2wvh27lt]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:35Z [ServiceNetMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:35:36Z [overcloud7-Networks-j3czae5hvzrc-StorageNetwork-gesl2wvh27lt]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:36Z [overcloud7-Networks-j3czae5hvzrc.StorageMgmtNetwork]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:36Z [overcloud7-Networks-j3czae5hvzrc-ExternalNetwork-kfx5hmjjrckd]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:37Z [overcloud7-Networks-j3czae5hvzrc-ExternalNetwork-kfx5hmjjrckd]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:38Z [overcloud7-Networks-j3czae5hvzrc.TenantNetwork]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:38Z [overcloud7-Networks-j3czae5hvzrc-StorageMgmtNetwork-aeohurb35ss2]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:38Z [overcloud7-Networks-j3czae5hvzrc-StorageMgmtNetwork-aeohurb35ss2]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:39Z [overcloud7-Networks-j3czae5hvzrc.InternalNetwork]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:39Z [overcloud7-Networks-j3czae5hvzrc-TenantNetwork-n6ftnuqjdfed]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:41Z [overcloud7-Networks-j3czae5hvzrc-InternalNetwork-5h2gxzanjyw2]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:41Z [overcloud7-Networks-j3czae5hvzrc.ManagementNetwork]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:41Z [overcloud7-Networks-j3czae5hvzrc-TenantNetwork-n6ftnuqjdfed]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:41Z [overcloud7-Networks-j3czae5hvzrc-InternalNetwork-5h2gxzanjyw2]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:42Z [overcloud7-Networks-j3czae5hvzrc.ExternalNetwork]: UPDATE_COMPLETE  state changed
+2018-04-17 14:35:42Z [overcloud7-Networks-j3czae5hvzrc-ManagementNetwork-2vks74cedyd4]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:42Z [overcloud7-Networks-j3czae5hvzrc.StorageNetwork]: UPDATE_COMPLETE  state changed
+2018-04-17 14:35:42Z [overcloud7-Networks-j3czae5hvzrc.StorageMgmtNetwork]: UPDATE_COMPLETE  state changed
+2018-04-17 14:35:42Z [overcloud7-Networks-j3czae5hvzrc.TenantNetwork]: UPDATE_COMPLETE  state changed
+2018-04-17 14:35:42Z [overcloud7-Networks-j3czae5hvzrc.InternalNetwork]: UPDATE_COMPLETE  state changed
+2018-04-17 14:35:43Z [overcloud7-Networks-j3czae5hvzrc-ManagementNetwork-2vks74cedyd4]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:43Z [overcloud7-Networks-j3czae5hvzrc.ManagementNetwork]: UPDATE_COMPLETE  state changed
+2018-04-17 14:35:44Z [overcloud7-Networks-j3czae5hvzrc]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:44Z [Networks]: UPDATE_COMPLETE  state changed
+2018-04-17 14:35:52Z [PublicVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:54Z [StorageVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:54Z [overcloud7-PublicVirtualIP-rs7rzmcsk5hj]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:55Z [overcloud7-PublicVirtualIP-rs7rzmcsk5hj]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:56Z [RedisVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:56Z [overcloud7-StorageVirtualIP-ophcx5xvcrhu]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:57Z [overcloud7-StorageVirtualIP-ophcx5xvcrhu]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:35:58Z [StorageMgmtVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:35:58Z [overcloud7-RedisVirtualIP-neybh5j3ipll]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:35:59Z [overcloud7-RedisVirtualIP-neybh5j3ipll]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:36:00Z [InternalApiVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:00Z [overcloud7-StorageMgmtVirtualIP-w7vkcmb36n2s]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:01Z [overcloud7-StorageMgmtVirtualIP-w7vkcmb36n2s]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:36:02Z [overcloud7-InternalApiVirtualIP-v2s452bhdh3f]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:02Z [overcloud7-InternalApiVirtualIP-v2s452bhdh3f]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:36:03Z [RedisVirtualIP]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:04Z [PublicVirtualIP]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:05Z [StorageVirtualIP]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:06Z [StorageMgmtVirtualIP]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:08Z [InternalApiVirtualIP]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:09Z [VipMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:10Z [overcloud7-VipMap-mjlyzhzlcyxk]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:10Z [overcloud7-VipMap-mjlyzhzlcyxk]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:36:11Z [VipMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:11Z [EndpointMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:13Z [EndpointMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:14Z [CephStorageServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:15Z [overcloud7-CephStorageServiceChain-4miiqvighwx4]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:15Z [ObjectStorageServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:16Z [overcloud7-CephStorageServiceChain-4miiqvighwx4.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:17Z [ControllerServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:17Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:17Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:18Z [overcloud7-CephStorageServiceChain-4miiqvighwx4.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:18Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:18Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:18Z [overcloud7-ControllerServiceChain-7toj65er3z7r]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:19Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.16]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:19Z [ComputeServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:19Z [overcloud7-ControllerServiceChain-7toj65er3z7r.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:20Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.10]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:20Z [overcloud7-CephStorageServiceChain-4miiqvighwx4.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:20Z [overcloud7-ControllerServiceChain-7toj65er3z7r.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:21Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:21Z [BlockStorageServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:21Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:21Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:22Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.15]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:23Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:23Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:23Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.17]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:23Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:24Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.18]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:25Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:25Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:25Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:26Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:27Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:28Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:28Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:28Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.7]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:29Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:29Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.15]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:30Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.24]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:30Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.17]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:31Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.21]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:31Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.8]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:32Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:33Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.16]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:33Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.20]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:34Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.19]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:37Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.6]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:37Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.18]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:37Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:38Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.12]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:39Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.7]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:40Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.10]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:41Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.11]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:41Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.8]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:42Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:36:43Z [overcloud7-ControllerServiceChain-7toj65er3z7r.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2018-04-17 14:36:43Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.18]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:44Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.28]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:45Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.13]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:45Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.10]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:45Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.7]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:46Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.23]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:49Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.20]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:49Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.8]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:49Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.4]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:49Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.33]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:49Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.101]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:50Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.14]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:51Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.9]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:51Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:52Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.15]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:52Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.5]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:53Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.13]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:53Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.6]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:55Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.14]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:55Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.39]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:56Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.12]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:56Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.15]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:56Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:58Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:36:58Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.11]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:00Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.9]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:00Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.51]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:00Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.13]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:00Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.15]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:00Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.17]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:00Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.16]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:01Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.19]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:01Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.18]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:01Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:01Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.11]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:01Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.8]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:01Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.10]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:01Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.20]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:01Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.9]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:02Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:02Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.22]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:02Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.16]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:02Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.10]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:02Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.15]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:02Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.8]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:02Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:03Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.6]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:03Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.17]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:03Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl.12]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:03Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.7]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:03Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.19]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:03Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.13]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:03Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx-ServiceChain-dfvwtxc4ihvl]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:37:03Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.18]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:03Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.112]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:03Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.30]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:03Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.14]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:05Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.9]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:05Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.9]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:06Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.31]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:06Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.47]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:06Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx.ServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:07Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:07Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg.5]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:07Z [overcloud7-CephStorageServiceChain-4miiqvighwx4-ServiceChain-5322b42h2zwg]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:37:07Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.32]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:07Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.17]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:08Z [overcloud7-CephStorageServiceChain-4miiqvighwx4.ServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:09Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.115]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:09Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.14]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:10Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.16]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:11Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.29]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:12Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.75]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:12Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.6]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:12Z [overcloud7-CephStorageServiceChain-4miiqvighwx4]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:37:13Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.11]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:13Z [overcloud7-BlockStorageServiceChain-sckt4gxyqbzx]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:37:13Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.7]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:13Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.23]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:13Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.21]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:13Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.89]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:13Z [CephStorageServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:13Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.33]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:15Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.13]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:15Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:16Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:16Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.110]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:16Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:16Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.20]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:16Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.12]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:16Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.15]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:16Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.6]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:16Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.10]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:17Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.32]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:17Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.4]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:17Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.22]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:17Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.15]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:17Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.28]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:17Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.84]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:17Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.24]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:17Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.14]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:17Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.30]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:17Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.8]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.14]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.19]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.9]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.31]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.16]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.13]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.18]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.17]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.7]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [BlockStorageServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:18Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn.6]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:19Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.65]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:19Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw-ServiceChain-shexwb4ef5bn]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:37:19Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d.29]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:19Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf-ServiceChain-p6kjfbytv73d]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:37:19Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw.ServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:20Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.91]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:22Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf.ServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:22Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.92]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:24Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.14]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:25Z [overcloud7-ObjectStorageServiceChain-u7zfgofl7nmw]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:37:25Z [ObjectStorageServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:26Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.7]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:27Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.78]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:28Z [ObjectStorageServiceChainRoleData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:28Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.6]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:28Z [overcloud7-ComputeServiceChain-ly64oaw3cfwf]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:37:30Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.111]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:30Z [ComputeServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:31Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.41]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:33Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.38]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:34Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.90]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:35Z [ObjectStorageServiceChainRoleData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:37:37Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.113]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:40Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.103]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:41Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.29]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:42Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.69]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:44Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.44]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:47Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.46]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:48Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.68]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:50Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.71]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:51Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.53]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:52Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.118]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:54Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.11]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:55Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.28]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:55Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:56Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.40]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:58Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.83]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:37:59Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.87]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:00Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.3]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:03Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.67]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:04Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.85]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:05Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.10]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:07Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.8]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:09Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.18]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:11Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.102]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:12Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.45]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:13Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.117]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:14Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.30]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:16Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.33]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:17Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.88]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:19Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.9]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:21Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.43]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:22Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.81]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:23Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.42]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:25Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.66]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:27Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:29Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.116]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:31Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.72]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:32Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.54]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:33Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:34Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.109]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:35Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.104]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:38:36Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.103]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:37Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.51]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:37Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.112]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:37Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.113]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:37Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.47]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:38Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.43]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:38Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.89]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:38Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.110]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:38Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.84]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:38Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.11]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:39Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.92]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:39Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.90]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:39Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.14]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:39Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.7]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:39Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.78]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:40Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.6]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:40Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.10]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:40Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.45]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:41Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.29]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:41Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.44]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:41Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.46]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:41Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.102]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:41Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.68]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:42Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.91]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:42Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.53]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:42Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.69]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:42Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.40]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:43Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.109]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:43Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.83]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:43Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.3]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:43Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.67]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:43Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.85]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:44Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.115]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:44Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.65]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:44Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.8]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:44Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.81]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:45Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.18]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:45Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:45Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.28]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:45Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.117]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:45Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.30]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:46Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.75]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:46Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.41]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:46Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.33]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:47Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.88]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:47Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.39]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:47Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.118]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:47Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.101]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:48Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.71]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:48Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.42]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:48Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.66]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:48Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.111]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:48Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:49Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.9]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:49Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.116]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:49Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.72]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:49Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.38]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:50Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.54]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:50Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:50Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.87]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:51Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw.104]: UPDATE_COMPLETE  state changed
+2018-04-17 14:38:52Z [overcloud7-ControllerServiceChain-7toj65er3z7r-ServiceChain-p7njzgwknvxw]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:38:53Z [overcloud7-ControllerServiceChain-7toj65er3z7r.ServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:06Z [overcloud7-ControllerServiceChain-7toj65er3z7r.DockerConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:11Z [overcloud7-ControllerServiceChain-7toj65er3z7r.DockerConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:12Z [overcloud7-ControllerServiceChain-7toj65er3z7r]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:39:12Z [ControllerServiceChain]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:24Z [ControllerServiceChainRoleData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:25Z [ControllerServiceChainRoleData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:25Z [ObjectStorageServiceConfigSettings]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:26Z [ControllerServiceConfigSettings]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:26Z [BlockStorage]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:27Z [CephStorage]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:29Z [overcloud7-CephStorage-c6yyzy4fwdns]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:29Z [Compute]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:29Z [overcloud7-CephStorage-c6yyzy4fwdns.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:30Z [overcloud7-Compute-2ljrfbezwmiw]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:30Z [overcloud7-Compute-2ljrfbezwmiw.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:31Z [ObjectStorageServiceConfigSettings]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:31Z [ControllerServiceConfigSettings]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:31Z [BlockStorage]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:31Z [ObjectStorage]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:33Z [ControllerMergedConfigSettings]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:33Z [ObjectStorageMergedConfigSettings]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:33Z [BlockStorageIpListMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:34Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:34Z [overcloud7-CephStorage-c6yyzy4fwdns.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:34Z [Controller]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:35Z [overcloud7-BlockStorageIpListMap-zica46wfhzrp]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:35Z [overcloud7-BlockStorageIpListMap-zica46wfhzrp]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:39:36Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:36Z [overcloud7-Compute-2ljrfbezwmiw.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:36Z [overcloud7-Controller-a3t3okhjykiy]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:37Z [overcloud7-Controller-a3t3okhjykiy.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:37Z [ObjectStorage]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:37Z [ControllerMergedConfigSettings]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:38Z [BlockStorageIpListMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:38Z [ObjectStorageMergedConfigSettings]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:38Z [ObjectStorageIpListMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:40Z [overcloud7-ObjectStorageIpListMap-zqbbl6m4wpc6]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:40Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:40Z [overcloud7-CephStorage-c6yyzy4fwdns.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:40Z [overcloud7-ObjectStorageIpListMap-zqbbl6m4wpc6]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:39:41Z [ObjectStorageIpListMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:42Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:42Z [overcloud7-Compute-2ljrfbezwmiw.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:42Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:44Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:44Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:44Z [overcloud7-Controller-a3t3okhjykiy.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:45Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:45Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:46Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:46Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:47Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:48Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:49Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:50Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:50Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:50Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:51Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.UpdateConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:51Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:51Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NodeUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:51Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.RoleUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:51Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:52Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:52Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:39:52Z [overcloud7-Controller-a3t3okhjykiy.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:52Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:52Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.UpdateConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:53Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NodeUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:53Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.RoleUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:53Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:53Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:53Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:54Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:55Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:55Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:57Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.UpdateConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:57Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:57Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NodeUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:57Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:57Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.RoleUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:39:57Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:58Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:59Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:39:59Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:00Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:00Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:02Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:02Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:02Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:03Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.RoleUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:03Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NodeUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:03Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:03Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.UpdateConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:03Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:03Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:40:03Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:05Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:05Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:06Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:06Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NodeUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:06Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.UpdateConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:06Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:06Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.RoleUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:07Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:08Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:09Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NodeUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:09Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.UpdateConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:09Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:09Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.RoleUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:09Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:10Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:11Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:12Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:12Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:13Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:14Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:14Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.UpdateConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:15Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NodeUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:15Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.RoleUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:15Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.UpdateConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:15Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NodeUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:15Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:15Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.RoleUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:15Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:16Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:17Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:19Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:20Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:22Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:23Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:23Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:24Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:25Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:26Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:26Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:26Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:27Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:29Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.UpdateConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:29Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:29Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:29Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.RoleUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:29Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NodeUserData]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:29Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:31Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:31Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:31Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:32Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:32Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:35Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.ManagementPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:35Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.InternalApiPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:35Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:36Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:38Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:39Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:42Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:42Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:42Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:43Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:43Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.ExternalPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:44Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.StoragePort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:45Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:45Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:47Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:48Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:48Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.TenantPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:49Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:49Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:50Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:52Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.TenantPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:52Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:52Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:53Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.StoragePort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:54Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:55Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:55Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.StoragePort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:56Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:40:59Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.InternalApiPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:59Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.ExternalPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:59Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.TenantPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:40:59Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:01Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.ManagementPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:01Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.StoragePort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:02Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NetIpMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:02Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NetworkConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:02Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:02Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:02Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.ExternalPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:02Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.TenantPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:03Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.ManagementPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:03Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.InternalApiPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:04Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:05Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.ManagementPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:05Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:07Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:08Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:09Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:10Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:10Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.StoragePort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:10Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.ExternalPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:10Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:11Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:11Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:11Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.CephStorageExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:11Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.TenantPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:13Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:13Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:15Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:15Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.ManagementPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:15Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.InternalApiPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:15Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:16Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.InternalApiPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:16Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.ExternalPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:16Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:16Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:17Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NetIpMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:17Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NetworkConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:17Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NetworkConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:17Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NetIpMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:17Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.CephStorageExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:19Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:19Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:20Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.TenantPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:20Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.CephStorageExtraConfigPre]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:20Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:21Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:21Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.ComputeExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:22Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:22Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ExternalPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:23Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:24Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:25Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:25Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:25Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:25Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.InternalApiPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:25Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.StoragePort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:28Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NetIpMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:28Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NetworkConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:28Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.CephStorageExtraConfigPre]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:28Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:28Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:28Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.InternalApiPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:28Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:29Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NetIpMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:30Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NetworkConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:30Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:31Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.ComputeExtraConfigPre]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:31Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:31Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:31Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:31Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ManagementPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:31Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ExternalPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:32Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:32Z [overcloud7-CephStorage-c6yyzy4fwdns-0-tr4q7cxw3gda]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:41:32Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.InternalApiPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:33Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.TenantPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:34Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.ComputeExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:34Z [overcloud7-CephStorage-c6yyzy4fwdns.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:35Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:36Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.CephStorageExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:36Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.TenantPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:37Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:37Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.ExternalPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:38Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.ManagementPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:38Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:38Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:38Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:38Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.ComputeExtraConfigPre]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:38Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:40Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:40Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.CephStorageExtraConfigPre]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:40Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:40Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ManagementPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:40Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ExternalPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:40Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.StoragePort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:40Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:41Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.StoragePort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:41Z [overcloud7-CephStorage-c6yyzy4fwdns-1-zumoiv7cqe62]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:41:41Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:41Z [overcloud7-CephStorage-c6yyzy4fwdns.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:43Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:43Z [overcloud7-Compute-2ljrfbezwmiw-1-5jhkvdcvqqx5]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:41:43Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.StoragePort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:44Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NetworkConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:44Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NetIpMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:44Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:44Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.ComputeExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:44Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ManagementPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:44Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:44Z [overcloud7-Compute-2ljrfbezwmiw.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:45Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:46Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:46Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.InternalApiPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:46Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:48Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:48Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NetIpMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:48Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NetworkConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:48Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:48Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ControllerConfig]: UPDATE_COMPLETE  The Resource ControllerConfig requires replacement.
+2018-04-17 14:41:48Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ControllerConfig]: CREATE_IN_PROGRESS  state changed
+2018-04-17 14:41:49Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:49Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.ComputeExtraConfigPre]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:49Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:49Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:50Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ControllerConfig]: CREATE_COMPLETE  state changed
+2018-04-17 14:41:50Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ControllerDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:50Z [overcloud7-Compute-2ljrfbezwmiw-0-c7a2uqx2eib3]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:41:50Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NetworkConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:50Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.TenantPort]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:50Z [overcloud7-Compute-2ljrfbezwmiw.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:51Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:51Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:51Z [overcloud7-CephStorage-c6yyzy4fwdns-2-eni7g7pqj3rr]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:41:51Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NetIpMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:51Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:51Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ControllerConfig]: UPDATE_COMPLETE  The Resource ControllerConfig requires replacement.
+2018-04-17 14:41:52Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ControllerConfig]: CREATE_IN_PROGRESS  state changed
+2018-04-17 14:41:52Z [overcloud7-CephStorage-c6yyzy4fwdns.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:52Z [overcloud7-CephStorage-c6yyzy4fwdns]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:41:52Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:52Z [CephStorage]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:53Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ControllerConfig]: CREATE_COMPLETE  state changed
+2018-04-17 14:41:53Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ControllerDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:54Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NetworkConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:54Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NetIpMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:41:54Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:54Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ControllerConfig]: UPDATE_COMPLETE  The Resource ControllerConfig requires replacement.
+2018-04-17 14:41:54Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ControllerConfig]: CREATE_IN_PROGRESS  state changed
+2018-04-17 14:41:55Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ControllerConfig]: CREATE_COMPLETE  state changed
+2018-04-17 14:41:55Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ControllerDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:41:59Z [overcloud7-Compute-2ljrfbezwmiw-2-poa2cczcv5j4]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:42:00Z [overcloud7-Compute-2ljrfbezwmiw.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:00Z [overcloud7-Compute-2ljrfbezwmiw]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:42:07Z [CephStorageIpListMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:08Z [overcloud7-CephStorageIpListMap-v4ikvmnczvd4]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:42:08Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ControllerDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment bfec0f44-2b21-4b2d-aa0d-0bc505e4b8cf succeeded
+2018-04-17 14:42:08Z [overcloud7-CephStorageIpListMap-v4ikvmnczvd4]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:42:08Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ControllerDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:08Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:09Z [Compute]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:10Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:12Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:12Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.ControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:12Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:14Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:18Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ControllerDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 49142ad3-6f36-4461-a5dd-cb899b685b4d succeeded
+2018-04-17 14:42:18Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ControllerDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:18Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:19Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:22Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ControllerDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment e425b895-e293-45a4-824d-5413f2d9e87c succeeded
+2018-04-17 14:42:23Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.ControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:23Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ControllerDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:23Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:23Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:23Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:24Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:24Z [overcloud7-Controller-a3t3okhjykiy-1-bccf4jm7vhrq]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:42:25Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:25Z [overcloud7-Controller-a3t3okhjykiy.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:27Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.ControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:27Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:27Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:29Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:31Z [CephStorageIpListMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:31Z [ComputeIpListMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:42:32Z [overcloud7-ComputeIpListMap-z3pj4eiobzcu]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:42:32Z [overcloud7-ComputeIpListMap-z3pj4eiobzcu]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:42:33Z [ComputeIpListMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:34Z [overcloud7-Controller-a3t3okhjykiy-0-s7hvmhxh6lkd]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:42:35Z [overcloud7-Controller-a3t3okhjykiy.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:38Z [overcloud7-Controller-a3t3okhjykiy-2-codkq2tctbp3]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:42:39Z [overcloud7-Controller-a3t3okhjykiy.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:42:39Z [overcloud7-Controller-a3t3okhjykiy]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:42:39Z [Controller]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:07Z [AllNodesValidationConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:08Z [overcloud7-AllNodesValidationConfig-glaodmtbptd6]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:08Z [ControllerIpListMap]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:08Z [overcloud7-AllNodesValidationConfig-glaodmtbptd6]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:09Z [hostsConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:09Z [overcloud7-ControllerIpListMap-gasoofac3ocx]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:10Z [overcloud7-ControllerIpListMap-gasoofac3ocx]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:10Z [SshKnownHostsConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:10Z [overcloud7-hostsConfig-e5i2wq373773]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:11Z [overcloud7-hostsConfig-e5i2wq373773]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:11Z [overcloud7-SshKnownHostsConfig-fsjfheukwzsu]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:12Z [overcloud7-SshKnownHostsConfig-fsjfheukwzsu]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:12Z [hostsConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:12Z [SshKnownHostsConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:12Z [AllNodesValidationConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:12Z [ControllerIpListMap]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:13Z [BlockStorageHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:14Z [ControllerSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:15Z [ObjectStorageSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:15Z [overcloud7-ControllerSshKnownHostsDeployment-yxxvy2ohr2ik]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:16Z [overcloud7-ControllerSshKnownHostsDeployment-yxxvy2ohr2ik]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:16Z [ComputeSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:17Z [BlockStorageSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:18Z [overcloud7-ComputeSshKnownHostsDeployment-rq6gggcgiiab]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:18Z [overcloud7-ComputeSshKnownHostsDeployment-rq6gggcgiiab]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:18Z [ObjectStorageHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:19Z [allNodesConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:23Z [CephStorageSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:23Z [overcloud7-allNodesConfig-ypfepaqoov4k]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:23Z [overcloud7-allNodesConfig-ypfepaqoov4k.allNodesConfigImpl]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:24Z [overcloud7-allNodesConfig-ypfepaqoov4k.allNodesConfigImpl]: UPDATE_COMPLETE  The Resource allNodesConfigImpl requires replacement.
+2018-04-17 14:43:24Z [overcloud7-CephStorageSshKnownHostsDeployment-q7rd6we7bhmn]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:24Z [CephStorageHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:25Z [overcloud7-allNodesConfig-ypfepaqoov4k.allNodesConfigImpl]: CREATE_IN_PROGRESS  state changed
+2018-04-17 14:43:25Z [overcloud7-CephStorageSshKnownHostsDeployment-q7rd6we7bhmn]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:25Z [overcloud7-allNodesConfig-ypfepaqoov4k.allNodesConfigImpl]: CREATE_COMPLETE  state changed
+2018-04-17 14:43:26Z [ControllerHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:26Z [overcloud7-CephStorageHostsDeployment-a3mylcw2rhyi]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:26Z [overcloud7-CephStorageHostsDeployment-a3mylcw2rhyi]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:26Z [overcloud7-allNodesConfig-ypfepaqoov4k]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:27Z [ComputeHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:27Z [overcloud7-ControllerHostsDeployment-vfwzxmyf77pe]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:28Z [overcloud7-ControllerHostsDeployment-vfwzxmyf77pe]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:29Z [overcloud7-ComputeHostsDeployment-lzpgzxkbmkv3]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:29Z [overcloud7-ComputeHostsDeployment-lzpgzxkbmkv3]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:30Z [CephStorageSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:30Z [BlockStorageHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:30Z [ControllerSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:30Z [ObjectStorageSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:30Z [ControllerHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:30Z [CephStorageHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:30Z [ComputeSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:30Z [BlockStorageSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:31Z [allNodesConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:31Z [ObjectStorageHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:31Z [ComputeHostsDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:31Z [ComputeAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:32Z [ObjectStorageAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:32Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:33Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:33Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:33Z [ControllerAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:33Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:35Z [BlockStorageAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:35Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:35Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:36Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:36Z [CephStorageAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:36Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:37Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:37Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:38Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:38Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:38Z [BlockStorageAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:38Z [ObjectStorageAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:38Z [ObjectStorageAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:39Z [BlockStorageAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:41Z [ObjectStorageAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:41Z [BlockStorageAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:46Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5.0]: SIGNAL_IN_PROGRESS  Signal: deployment 5df70e97-57c3-47e3-972e-47a26539b0bd succeeded
+2018-04-17 14:43:47Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:51Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf.1]: SIGNAL_IN_PROGRESS  Signal: deployment 8ba8992d-db03-4bba-b409-e288a85bc253 succeeded
+2018-04-17 14:43:52Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:52Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5.1]: SIGNAL_IN_PROGRESS  Signal: deployment 48a5d584-a75f-45ed-acae-3252b28dfe24 succeeded
+2018-04-17 14:43:52Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:52Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv.1]: SIGNAL_IN_PROGRESS  Signal: deployment 23c2e191-ab34-4456-abf1-331db1ddc819 succeeded
+2018-04-17 14:43:53Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:53Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv.2]: SIGNAL_IN_PROGRESS  Signal: deployment 5be5486a-186c-4d7f-8248-a49569676713 succeeded
+2018-04-17 14:43:54Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:55Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5.2]: SIGNAL_IN_PROGRESS  Signal: deployment 1dc3a7b4-afa4-4655-b73c-aeadc0264d55 succeeded
+2018-04-17 14:43:56Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:56Z [overcloud7-ComputeAllNodesDeployment-33whtvsx34e5]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:43:57Z [ComputeAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:43:57Z [ComputeAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:43:59Z [overcloud7-ComputeAllNodesValidationDeployment-lrtft45a2ufi]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:43:59Z [overcloud7-ComputeAllNodesValidationDeployment-lrtft45a2ufi]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:00Z [ComputeAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:01Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf.0]: SIGNAL_IN_PROGRESS  Signal: deployment 428011a4-63dc-4845-9aa7-91a06f52a654 succeeded
+2018-04-17 14:44:01Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:02Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf.2]: SIGNAL_IN_PROGRESS  Signal: deployment 95559aa0-a41d-4631-9916-3a93eea55d1b succeeded
+2018-04-17 14:44:03Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:04Z [overcloud7-ControllerAllNodesDeployment-eexbww24jjcf]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:04Z [ControllerAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:04Z [ControllerAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:05Z [overcloud7-ControllerAllNodesValidationDeployment-mbawkjxn6g6s]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:05Z [overcloud7-ControllerAllNodesValidationDeployment-mbawkjxn6g6s]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:06Z [ControllerAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:17Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv.0]: SIGNAL_IN_PROGRESS  Signal: deployment 4dc3b289-6654-472a-8c51-cd45739d180d succeeded
+2018-04-17 14:44:18Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:18Z [overcloud7-CephStorageAllNodesDeployment-325t4el6xjwv]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:18Z [CephStorageAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:18Z [CephStorageAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:20Z [overcloud7-CephStorageAllNodesValidationDeployment-oljwdolfzjoe]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:20Z [overcloud7-CephStorageAllNodesValidationDeployment-oljwdolfzjoe]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:21Z [CephStorageAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:21Z [AllNodesDeploySteps]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:26Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:38Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-BlockStorageArtifactsConfig-iuj3bbzmvyvp]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:40Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-BlockStorageArtifactsConfig-iuj3bbzmvyvp]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ObjectStorageArtifactsConfig-atbpuch543lo]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ObjectStorageArtifactsConfig-atbpuch543lo]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageArtifactsConfig-gl3ruhj7zuin]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:42Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageArtifactsConfig-gl3ruhj7zuin]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:42Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerArtifactsConfig-6wa5duxubkhx]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:42Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:42Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerArtifactsConfig-6wa5duxubkhx]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:43Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeArtifactsConfig-f7dswh4mrcri]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:43Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerHostPrepConfig]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:43Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerHostPrepConfig]: UPDATE_COMPLETE  The Resource ControllerHostPrepConfig requires replacement.
+2018-04-17 14:44:43Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeArtifactsConfig-f7dswh4mrcri]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:43Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerHostPrepConfig]: CREATE_IN_PROGRESS  state changed
+2018-04-17 14:44:44Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageHostPrepDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:44Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeHostPrepDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:46Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageHostPrepDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:46Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeHostPrepDeployment-kunnewwfvbhf]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:46Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeHostPrepDeployment-kunnewwfvbhf]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:47Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageHostPrepDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:47Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageHostPrepDeployment-jy3lrv2gmtin]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:48Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageHostPrepDeployment-jy3lrv2gmtin]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:49Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageArtifactsConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:49Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageHostPrepDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:50Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageArtifactsConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:50Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageArtifactsConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:50Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerHostPrepConfig]: CREATE_COMPLETE  state changed
+2018-04-17 14:44:50Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeHostPrepDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:50Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageHostPrepDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:50Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerArtifactsConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:50Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeArtifactsConfig]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:50Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageHostPrepDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:50Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:51Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:52Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:52Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageArtifactsDeploy-kfbt3q3m5c3q]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:53Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageArtifactsDeploy-kfbt3q3m5c3q]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:54Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:54Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerArtifactsDeploy-k2cmhzg6r3su]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:54Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerArtifactsDeploy-k2cmhzg6r3su]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:55Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:56Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeArtifactsDeploy-4btgs65m4dsk]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:56Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerHostPrepDeployment]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:56Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeArtifactsDeploy-4btgs65m4dsk]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:44:57Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:44:57Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:44:59Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:59Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:59Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:59Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2018-04-17 14:44:59Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2018-04-17 14:46:05Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc.0]: SIGNAL_IN_PROGRESS  Signal: deployment 7129a29a-c239-421d-a465-904064b555f6 succeeded
+2018-04-17 14:46:05Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:46:08Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc.2]: SIGNAL_IN_PROGRESS  Signal: deployment 2b34f90b-4b15-4d1e-b053-9626d075c571 succeeded
+2018-04-17 14:46:09Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:46:24Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc.1]: SIGNAL_IN_PROGRESS  Signal: deployment 23c977ec-77fe-4d62-ba9e-769506767c28 succeeded
+2018-04-17 14:46:24Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:46:25Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerHostPrepDeployment-k5s2vbfrsjnc]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:46:25Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerHostPrepDeployment]: UPDATE_COMPLETE  state changed
+2018-04-17 14:46:25Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:27Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:27Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:46:27Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:27Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:28Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:28Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:29Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:29Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:46:29Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:30Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:30Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:30Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:31Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:46:31Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:32Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:46:32Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:46:32Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:46:32Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:47:37Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi.0]: SIGNAL_IN_PROGRESS  Signal: deployment e4d47b29-8343-4ba5-80ac-9dac4f2986eb succeeded
+2018-04-17 14:47:37Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:47:43Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi.1]: SIGNAL_IN_PROGRESS  Signal: deployment ab43718e-9cea-4a24-bba1-7f94cc87cfbd succeeded
+2018-04-17 14:47:44Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:47:45Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi.2]: SIGNAL_IN_PROGRESS  Signal: deployment 396cc813-6f61-4169-b767-4e62d4b5bbfa succeeded
+2018-04-17 14:47:46Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:47:46Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step1-yredn5w62bmi]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:47:47Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:48:00Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne.0]: SIGNAL_IN_PROGRESS  Signal: deployment 83cbdfb6-e1e2-4542-9fd5-260750cebd45 succeeded
+2018-04-17 14:48:00Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:48:14Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne.2]: SIGNAL_IN_PROGRESS  Signal: deployment 48797433-b5f1-43fb-ae67-6602d22e948f succeeded
+2018-04-17 14:48:14Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:48:15Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne.1]: SIGNAL_IN_PROGRESS  Signal: deployment 1f0564e6-d0b4-4506-82ed-f5cc85ff285d succeeded
+2018-04-17 14:48:15Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:48:15Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step1-gntvrkkye5ne]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:48:16Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:50:02Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr.0]: SIGNAL_IN_PROGRESS  Signal: deployment d5af5ed9-757c-483d-9484-30c895eefe27 succeeded
+2018-04-17 14:50:03Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:50:06Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr.2]: SIGNAL_IN_PROGRESS  Signal: deployment fbf99c0d-1565-4d94-ad2a-cc5d89e322ba succeeded
+2018-04-17 14:50:06Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:50:18Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr.1]: SIGNAL_IN_PROGRESS  Signal: deployment 9532bb27-b4fe-4a6b-b2c7-a1342ed339cd succeeded
+2018-04-17 14:50:18Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:50:18Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step1-n2clif24w5tr]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:50:19Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:50:19Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.WorkflowTasks_Step2_Execution]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:50:20Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.WorkflowTasks_Step2_Execution]: UPDATE_COMPLETE  The Resource WorkflowTasks_Step2_Execution requires replacement.
+2018-04-17 14:50:20Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.WorkflowTasks_Step2_Execution]: CREATE_IN_PROGRESS  state changed
+2018-04-17 14:57:27Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.WorkflowTasks_Step2_Execution]: CREATE_COMPLETE  state changed
+2018-04-17 14:57:27Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:29Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:29Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:57:29Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:29Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:29Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:30Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:30Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:31Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:31Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:57:32Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:32Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:33Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:33Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:57:33Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:33Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:34Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:57:34Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:57:34Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:12Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol.0]: SIGNAL_IN_PROGRESS  Signal: deployment a2789d4f-05f8-485a-8149-bfd9695870ae succeeded
+2018-04-17 14:58:13Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:24Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol.1]: SIGNAL_IN_PROGRESS  Signal: deployment 9bd6357d-eae4-443e-ad5a-fb2ca1336026 succeeded
+2018-04-17 14:58:26Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:28Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol.2]: SIGNAL_IN_PROGRESS  Signal: deployment 3590e0bb-ca57-4fd2-87f5-15839a971a88 succeeded
+2018-04-17 14:58:28Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:28Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step2-hw4xkejr7kol]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:58:28Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:30Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun.2]: SIGNAL_IN_PROGRESS  Signal: deployment 7fe5e30c-6a48-4112-88a2-5192d40342fa succeeded
+2018-04-17 14:58:30Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun.1]: SIGNAL_IN_PROGRESS  Signal: deployment e74941ab-cf2b-4bda-9aa1-fa7d3852b590 succeeded
+2018-04-17 14:58:31Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:31Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:31Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm.1]: SIGNAL_IN_PROGRESS  Signal: deployment c608d39b-ebec-4378-a34b-fa4b073576c0 succeeded
+2018-04-17 14:58:32Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:34Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm.0]: SIGNAL_IN_PROGRESS  Signal: deployment 040d5e5b-dbdc-4cd1-ac1a-d1c0a36ee53f succeeded
+2018-04-17 14:58:34Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:35Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun.0]: SIGNAL_IN_PROGRESS  Signal: deployment a1678de0-0d0b-46dc-bebd-64048ba6902a succeeded
+2018-04-17 14:58:36Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:36Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm.2]: SIGNAL_IN_PROGRESS  Signal: deployment 8d3e3182-327f-4cde-b14b-61b203834471 succeeded
+2018-04-17 14:58:36Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step2-4ottuuagowun]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:58:36Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:36Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step2-oz542r6twqpm]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:58:37Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:37Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:37Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step3]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:38Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step3]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:38Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:58:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step3]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:40Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step3]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step3]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:58:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:42Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:42Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:43Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 14:58:43Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:43Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:58:44Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step3]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:44Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step3]: UPDATE_COMPLETE  state changed
+2018-04-17 14:58:44Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 14:59:21Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw.0]: SIGNAL_IN_PROGRESS  Signal: deployment 368b8f67-16f2-4c13-9e16-e9ad27ac07be succeeded
+2018-04-17 14:59:22Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:59:40Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw.1]: SIGNAL_IN_PROGRESS  Signal: deployment 42fa9e5e-dc30-439b-b277-162287fd2986 succeeded
+2018-04-17 14:59:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw.1]: UPDATE_COMPLETE  state changed
+2018-04-17 14:59:44Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw.2]: SIGNAL_IN_PROGRESS  Signal: deployment 51507329-76c8-4b9a-a436-c60667ca95f9 succeeded
+2018-04-17 14:59:45Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw.2]: UPDATE_COMPLETE  state changed
+2018-04-17 14:59:45Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step3-4czubc3724sw]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 14:59:45Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step3]: UPDATE_COMPLETE  state changed
+2018-04-17 14:59:57Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz.2]: SIGNAL_IN_PROGRESS  Signal: deployment 7f9aed1d-0bf6-4afb-b6ac-c60eefa4c40c succeeded
+2018-04-17 14:59:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz.0]: SIGNAL_IN_PROGRESS  Signal: deployment 7f03611d-92d1-4eb7-bc73-6a2a798ac448 succeeded
+2018-04-17 14:59:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz.0]: UPDATE_COMPLETE  state changed
+2018-04-17 14:59:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz.2]: UPDATE_COMPLETE  state changed
+2018-04-17 15:00:01Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz.1]: SIGNAL_IN_PROGRESS  Signal: deployment 553088e6-d3c9-472b-861e-8c8c2ebef7f2 succeeded
+2018-04-17 15:00:01Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz.1]: UPDATE_COMPLETE  state changed
+2018-04-17 15:00:01Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step3-qprhjkujifbz]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 15:00:02Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step3]: UPDATE_COMPLETE  state changed
+2018-04-17 15:00:29Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre.2]: SIGNAL_IN_PROGRESS  Signal: deployment 5cda06b1-aa22-48d6-bf94-097d980b2d4b succeeded
+2018-04-17 15:00:30Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre.2]: UPDATE_COMPLETE  state changed
+2018-04-17 15:00:33Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre.1]: SIGNAL_IN_PROGRESS  Signal: deployment 878b4b6c-6510-4e72-9041-c683e1af4103 succeeded
+2018-04-17 15:00:33Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre.1]: UPDATE_COMPLETE  state changed
+2018-04-17 15:02:55Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre.0]: SIGNAL_IN_PROGRESS  Signal: deployment ab5f36b6-62a3-4c66-ad75-d6e92ce0b05f succeeded
+2018-04-17 15:02:55Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre.0]: UPDATE_COMPLETE  state changed
+2018-04-17 15:02:55Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step3-s6njce5mslre]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 15:02:55Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step3]: UPDATE_COMPLETE  state changed
+2018-04-17 15:02:55Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step4]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:02:57Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step4]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:02:57Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 15:02:57Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:02:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step4]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:02:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:02:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:02:59Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step4]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:02:59Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 15:02:59Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:03:00Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:03:00Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:03:00Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step4]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:03:00Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 15:03:00Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:03:01Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:03:02Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:03:02Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step4]: UPDATE_COMPLETE  state changed
+2018-04-17 15:03:02Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step4]: UPDATE_COMPLETE  state changed
+2018-04-17 15:03:51Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2.1]: SIGNAL_IN_PROGRESS  Signal: deployment 5b04f8a3-c880-4706-acda-19938b5070f0 succeeded
+2018-04-17 15:03:52Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2.1]: UPDATE_COMPLETE  state changed
+2018-04-17 15:03:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2.2]: SIGNAL_IN_PROGRESS  Signal: deployment 298ac0a6-5edc-4009-b525-aed2d174b1ca succeeded
+2018-04-17 15:03:58Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2.2]: UPDATE_COMPLETE  state changed
+2018-04-17 15:04:06Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2.0]: SIGNAL_IN_PROGRESS  Signal: deployment b16a91d2-8c7e-42a1-b943-4e33429df612 succeeded
+2018-04-17 15:04:06Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2.0]: UPDATE_COMPLETE  state changed
+2018-04-17 15:04:06Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step4-lny7qermpzw2]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 15:04:07Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step4]: UPDATE_COMPLETE  state changed
+2018-04-17 15:04:15Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i.0]: SIGNAL_IN_PROGRESS  Signal: deployment 8e9b5c3c-49c1-4f6c-9a31-827aa7fc2085 succeeded
+2018-04-17 15:04:16Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i.0]: UPDATE_COMPLETE  state changed
+2018-04-17 15:04:19Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i.2]: SIGNAL_IN_PROGRESS  Signal: deployment 460f4db4-e9cd-4ed8-99aa-7aab6b19351e succeeded
+2018-04-17 15:04:20Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i.2]: UPDATE_COMPLETE  state changed
+2018-04-17 15:04:24Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i.1]: SIGNAL_IN_PROGRESS  Signal: deployment 6f69672d-dee6-4f94-803e-89bddb6e781e succeeded
+2018-04-17 15:04:24Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i.1]: UPDATE_COMPLETE  state changed
+2018-04-17 15:04:24Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step4-pll4nwrnrg2i]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 15:04:25Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step4]: UPDATE_COMPLETE  state changed
+2018-04-17 15:04:59Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r.2]: SIGNAL_IN_PROGRESS  Signal: deployment d18bb913-7669-42e1-872f-c4fffe36c78a succeeded
+2018-04-17 15:05:00Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r.2]: UPDATE_COMPLETE  state changed
+2018-04-17 15:05:09Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r.1]: SIGNAL_IN_PROGRESS  Signal: deployment a306b87c-13d4-44cb-b816-9936ec4840e8 succeeded
+2018-04-17 15:05:10Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r.1]: UPDATE_COMPLETE  state changed
+2018-04-17 15:05:32Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r.0]: SIGNAL_IN_PROGRESS  Signal: deployment 8184b3df-3a97-47e5-8127-4dfc2c0aa5a1 succeeded
+2018-04-17 15:05:33Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r.0]: UPDATE_COMPLETE  state changed
+2018-04-17 15:05:33Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step4-y2m7lhsdzh2r]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 15:05:34Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step4]: UPDATE_COMPLETE  state changed
+2018-04-17 15:05:34Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step5]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:35Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step5]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:35Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 15:05:35Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:36Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:36Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:37Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step5]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:37Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 15:05:37Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:38Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:38Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:38Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2018-04-17 15:05:38Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step5]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:38Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs.1]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step5]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs.2]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:40Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs.0]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:05:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageDeployment_Step5]: UPDATE_COMPLETE  state changed
+2018-04-17 15:05:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageDeployment_Step5]: UPDATE_COMPLETE  state changed
+2018-04-17 15:06:12Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh.0]: SIGNAL_IN_PROGRESS  Signal: deployment 0b8d1369-2192-4e1e-a026-83a5b7c257d3 succeeded
+2018-04-17 15:06:13Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh.0]: UPDATE_COMPLETE  state changed
+2018-04-17 15:06:30Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk.0]: SIGNAL_IN_PROGRESS  Signal: deployment 0327b82c-03a0-49e4-9506-d7645a8758f6 succeeded
+2018-04-17 15:06:31Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk.0]: UPDATE_COMPLETE  state changed
+2018-04-17 15:06:34Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh.1]: SIGNAL_IN_PROGRESS  Signal: deployment d1b56e45-fe06-4aa4-b493-6c57b0ede475 succeeded
+2018-04-17 15:06:34Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh.1]: UPDATE_COMPLETE  state changed
+2018-04-17 15:06:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk.2]: SIGNAL_IN_PROGRESS  Signal: deployment 57ea1e4b-eb85-4533-8a61-a0386fb7ece1 succeeded
+2018-04-17 15:06:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk.2]: UPDATE_COMPLETE  state changed
+2018-04-17 15:06:39Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh.2]: SIGNAL_IN_PROGRESS  Signal: deployment 723872db-8aa1-4177-a0a4-735711ce89ec succeeded
+2018-04-17 15:06:40Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh.2]: UPDATE_COMPLETE  state changed
+2018-04-17 15:06:40Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-CephStorageDeployment_Step5-5of5vshvtveh]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 15:06:41Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageDeployment_Step5]: UPDATE_COMPLETE  state changed
+2018-04-17 15:06:46Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk.1]: SIGNAL_IN_PROGRESS  Signal: deployment 5de251f1-b12c-42d4-8b60-50fb0f07814c succeeded
+2018-04-17 15:06:47Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk.1]: UPDATE_COMPLETE  state changed
+2018-04-17 15:06:47Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ComputeDeployment_Step5-xzzc2sdkbgpk]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 15:06:47Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeDeployment_Step5]: UPDATE_COMPLETE  state changed
+2018-04-17 15:07:47Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs.1]: SIGNAL_IN_PROGRESS  Signal: deployment b4a467b0-6347-423b-a42c-0efde4b3657b succeeded
+2018-04-17 15:07:48Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs.1]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:07Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs.2]: SIGNAL_IN_PROGRESS  Signal: deployment 753a9155-3968-4d95-a2d0-064938742342 succeeded
+2018-04-17 15:08:08Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs.2]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:14Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs.0]: SIGNAL_IN_PROGRESS  Signal: deployment bd4fd3b3-84d5-4af5-b8fb-0553b283c40c succeeded
+2018-04-17 15:08:15Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs.0]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:15Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7-ControllerDeployment_Step5-zjdby6ex6djs]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 15:08:16Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerDeployment_Step5]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:16Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeExtraConfigPost]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:08:16Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageExtraConfigPost]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:08:17Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageExtraConfigPost]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:08:18Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerExtraConfigPost]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:08:19Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageExtraConfigPost]: UPDATE_IN_PROGRESS  state changed
+2018-04-17 15:08:21Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.BlockStorageExtraConfigPost]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:21Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.CephStorageExtraConfigPost]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:21Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ComputeExtraConfigPost]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:21Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ControllerExtraConfigPost]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:21Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7.ObjectStorageExtraConfigPost]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:35Z [overcloud7-AllNodesDeploySteps-3dgl3ic4msg7]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2018-04-17 15:08:37Z [AllNodesDeploySteps]: UPDATE_COMPLETE  state changed
+2018-04-17 15:08:52Z [overcloud7]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+
+ Stack overcloud7 UPDATE_COMPLETE 
+
+Overcloud Endpoint: http://172.17.17.11:5000/v2.0
+Overcloud Deployed

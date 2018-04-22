@@ -1,0 +1,14 @@
+parameter_defaults:
+  OvercloudControllerFlavor: control
+  OvercloudComputeFlavor: compute
+  OvercloudCephStorageFlavor: ceph-storage
+  ControllerCount: 3
+  ComputeCount: 0
+  CephStorageCount: 0
+  NeutronNetworkType: vxlan
+  NeutronTunnelTypes: vxlan
+  #CinderBackupBackend: ceph
+  #CephAnsibleDisksConfig:
+  #  osd_scenario: collocated
+  #  devices:
+  #   - /dev/sdb
